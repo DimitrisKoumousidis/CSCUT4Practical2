@@ -62,7 +62,7 @@ public class FilesInOut {
                                                        use of the string_to_date method */
 
 
-        while(inFile.hasNext()){
+        while(inFile.hasNext()){ // While there is a line next
             String line = inFile.next(); // Assign the next line
             String[] lineTokens = line.split(" "); // Split the line by spaces and assign them in an array
             String outputLine =""; // The final output string for each line
